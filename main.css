@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #a9d4ff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+form input{
+    margin: 6px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 1vh;
+    border: black;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(49, 177, 79);
+    border-radius: 1vh;
+    border: black;
+    cursor: pointer;
+    font-weight: 400;
+    
+}
+
+button:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+ul{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    color: #333;
+    height: 50px;
+    border-radius: 10px;
+    margin: 8px ;
+    padding: 1px;
+    position: relative;
+}
+
+ul .fa-check{
+    position: absolute;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ul .fa-check{
+    right: 200px;
+    color: rgb(31, 100, 31);
+}
+
+ul .checked{
+    background: rgb(101, 176, 155);
+    text-decoration: line-through;
+    transition: 1s;
+}
+
